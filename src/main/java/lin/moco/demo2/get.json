@@ -1,0 +1,26 @@
+[
+   {
+   "description":"模拟一个没有参数的get请求",
+   "request":{
+   "uri":"/getdemo",
+   "method":"get"
+   },
+   "response":{
+   "text":"this is a request get without parameters"
+   }
+   },
+   {
+   "description":"模拟一个带参数的get请求",
+   "request":{
+   "uri":"/getparameters",
+   "method":"get",
+   "queries":{
+   "name":"huhansan",
+   "age":"33"
+   }
+   },
+   "response":{
+   "text":"huhansan is coming"
+   }
+   }
+]
